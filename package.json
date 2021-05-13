@@ -1,0 +1,38 @@
+{
+  "name": "rota-sfb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build --release",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://leandroscol@bitbucket.org/tinpix/rota-sfb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jade-php": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug-3": "^1.2.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-watch": "^5.0.1",
+    "run-sequence": "^1.2.2",
+    "yargs": "^4.8.1"
+  },
+  "dependencies": {
+    "jade-bootstrap": "^1.0.14",
+    "pug": "^3.0.2",
+    "pug-php-filter": "0.0.1"
+  }
+}
